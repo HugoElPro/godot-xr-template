@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TechniqueData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://game/techniques/technique_data.gd" id="1_data"]
+[ext_resource type="PackedScene" path="res://game/techniques/rasengan/rasengan.tscn" id="2_scene"]
+
+[resource]
+script = ExtResource("1_data")
+nombre = "Rasengan"
+secuencia = PackedStringArray()
+escena = ExtResource("2_scene")
